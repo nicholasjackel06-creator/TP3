@@ -11,11 +11,15 @@ int main() {
   std::cout << "*******************************\n";
 
   char choix;
-     std::cout << "choisissez une option\n";
-     std::cin >> choix;
-     std::cout << "vous avez choisi l'option " << choix << endl;
-     if (choix >= 4){
-        std::cout << "choix invalide\n";
+     cout << "choisissez une option\n";
+     cin >> choix;      
+     switch (choix){
+        case '1': 
+         cout << "vous avez choisi l'option " << choix << endl;
+         break;
+
      }
+     
+     
 
 }
