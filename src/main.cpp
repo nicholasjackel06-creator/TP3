@@ -17,6 +17,15 @@ int main() {
         case '1': 
          cout << "vous avez choisi l'option " << choix << endl;
          break;
+         case '2':
+         cout << "vous avez choisi l'option " << choix << endl;
+         break;
+         case '3':
+         cout << "vous avez choisi l'option " << choix << endl;
+         break;
+         case '4':
+         cout << "vous avez choisi l'option " << choix << endl;
+         break;
 
      }
      
